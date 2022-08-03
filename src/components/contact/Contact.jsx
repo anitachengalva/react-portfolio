@@ -1,7 +1,7 @@
 import React from "react";
 import "./contact.css";
 
-const About = () => {
+const Contact = () => {
   return (
     <>
       <section>Contact Me</section>

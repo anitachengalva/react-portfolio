@@ -4,6 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 import Header from "./components/header/Header";
 import Nav from "./components/nav/Nav";
+import Skills from "./components/skills/Skills";
 import Projects from "./components/projects";
 import About from "./components/about";
 import Contact from "./components/contact/Contact";

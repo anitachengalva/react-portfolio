@@ -25,7 +25,7 @@ header {
     align-items: center;
     position: absolute;
     background: transparent;
-    padding: 15px;
+    padding: 15px 5px 0 5px;
     margin: 5px;
     margin-left: -20px;
     float: left;
@@ -55,8 +55,9 @@ header {
 /* down arrow */
 .scroll-down {
     position: absolute;
-    right: 10px;
-    bottom: 30px;
+    right: -20px;
+    bottom: 0;
+    font-weight: 200;
     font-size: 30px;
 }
 
@@ -72,7 +73,7 @@ header {
         height: 110vh;
     }
 
-    .header-socials {
+    .header-socials, .scroll-down {
         display: none;
     }
 }

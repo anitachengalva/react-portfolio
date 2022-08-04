@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;600&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -8,6 +10,7 @@
     text-decoration: none;
 }
 
+/* css variables */
 :root {
     --color-bg: #D0B49F;
     --color-bg-varient: #E7D1C9;
@@ -15,4 +18,24 @@
     --color-primary-varient: #F3E7E4;
     --color-white: #FFFFFF;
     --color-light: #F6F2F0;
+
+    --container-width-lg: 75%;
+    --container-width-md: 86%;
+    --container-width-sm: 90%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: var(--color-bg);
+    color: var(--color-white);
+    line-height: 1.7;
+    background-image: url(../src/assets/img/tweed.webp);
 }

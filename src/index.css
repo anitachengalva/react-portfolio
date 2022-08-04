@@ -21,9 +21,9 @@
 
     --transition: all 400ms ease;
 
-    --container-width-lg: 75%;
-    --container-width-md: 86%;
-    --container-width-sm: 90%;
+    --container-width-lg: 85%;
+    --container-width-md: 90%;
+    --container-width-sm: 98%;
 }
 
 /* general css */
@@ -60,6 +60,7 @@ h1 {
 section {
     margin-top: 8rem;
     height: 100vh;
+    width: 100%;
 }
 
 section > h2, section > h5 {

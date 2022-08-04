@@ -4,7 +4,7 @@ header {
     overflow: hidden;
 }
 
-.header__container {
+.header-container {
     text-align: center;
     height: 100%;
     position: relative;
@@ -12,50 +12,34 @@ header {
 
 /* cta buttons */
 .cta {
-    margin-top: 2.5rem;
+    margin-top: 30px;
     display: flex;
-    gap: 8px;
     justify-content: center;
 }
 
 /* socials icons */
-.header__socials {
-    size: 70;
+.header-socials {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 8px;
+    padding: 8px;
     position: absolute;
-    left: 2px;
+    left: 0;
     top: 0;
 }
 
-/* .header__socials::before {
+.header-socials::after {
     content: "";
     width: 1px;
     height: 60px;
     background: var(--color-primary);
-}*/
-
-/* .header__socials::after {
-    content: "";
-    width: 1px;
-    height: 60px;
-    background: var(--color-primary);
-} */
+}
 
 /* headshot */
 .headshot img {
+    width: 300px;
     border-radius: 50%;
-}
-.headshot {
-    background: var(--color-primary);
-    width: 20rem;
-    height: 20rem;
+    margin-top: 20px;
     position: absolute;
-    left: calc(50% - 10rem);
-    margin-top: 30px;
-    border-radius: 12rem;
-    overflow: hidden;
-    padding: 1.5rem;
+    left: calc(50% - 150px)
 }

@@ -8,10 +8,11 @@ import Socials from "./Socials";
 const Header = () => {
   return (
     <header>
-      <div className="container header__container">
+      <div className="container header-container">
         <h5>Hello, I'm</h5>
         <h1>Anita Chengalva</h1>
         <h5 className="text-light">Full-Stack Web Developer</h5>
+        
         <CTA />
         <Socials />
 

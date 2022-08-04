@@ -1,0 +1,12 @@
+nav {
+    display: flex;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.3);
+    width: max-content;
+    padding: 12px 26px;
+    z-index: 2;
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    border-radius: 30%;
+}

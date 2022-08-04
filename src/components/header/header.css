@@ -39,7 +39,24 @@ header {
 .headshot img {
     width: 300px;
     border-radius: 50%;
-    margin-top: 20px;
+    margin-top: 40px;
     position: absolute;
-    left: calc(50% - 150px)
+    left: calc(50% - 150px);
+}
+
+/* media query */
+@media screen and (max-width: 1024px) {
+    header {
+        height: 100vh;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    header {
+        height: 110vh;
+    }
+
+    .header-socials {
+        display: none;
+    }
 }

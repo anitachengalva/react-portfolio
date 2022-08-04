@@ -26,12 +26,12 @@ header {
     background: transparent;
     padding: 15px;
     margin: 5px;
-    margin-left: -20px;
+    margin-left: -30px;
     bottom: 0;
     border-radius: 50%;
     display: flex;
     color: var(--color-light);
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .header-socials::after {
@@ -48,6 +48,14 @@ header {
     margin-top: 40px;
     position: absolute;
     left: calc(50% - 150px);
+}
+
+/* down arrow */
+.scroll-down {
+    position: absolute;
+    right: -10px;
+    bottom: 30px;
+    font-size: 30px;
 }
 
 /* media query */

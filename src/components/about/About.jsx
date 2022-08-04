@@ -3,8 +3,7 @@ import "./about.css";
 
 const About = () => {
   return (
-    <>
-      <section class="about">
+      <section id="about">
         <h1>Nice to meet you, I'm Anita!</h1>
         <p>
           I am currently a student at the University of Washington studying web
@@ -23,7 +22,6 @@ const About = () => {
         </p>
         <img src="./assets/images/me&dog.jpg" alt="Nova & Anita" />
       </section>
-    </>
   );
 };
 

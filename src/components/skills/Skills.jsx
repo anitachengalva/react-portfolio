@@ -3,9 +3,7 @@ import "./skills.css";
 
 const Skills = () => {
   return (
-    <>
-      <section>Skills and Experience</section>
-    </>
+    <section id="skills">Skills and Experience</section>
   );
 };
 

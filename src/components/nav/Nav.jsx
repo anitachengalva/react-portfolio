@@ -9,7 +9,7 @@ import {FiMail} from "react-icons/fi"
 
 const Nav = () => {
   return (
-    <nav>
+    <nav id="about">
       <a href="#header"><MdOutlineStarBorderPurple500 /></a>
       <a href="#about"><BsFillPersonFill /></a>
       <a href="#skills"><BsTools /></a>

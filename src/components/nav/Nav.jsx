@@ -11,10 +11,10 @@ const Nav = () => {
   return (
     <nav>
       <a href="#"><MdOutlineStarBorderPurple500 /></a>
-      <a href="#about"></a>
-      <a href="#skills"></a>
-      <a href="#projects"></a>
-      <a href="#contact"></a>
+      <a href="#about"><BsFillPersonFill /></a>
+      <a href="#skills"><BsTools /></a>
+      <a href="#projects"><FaLaptopCode /></a>
+      <a href="#contact"><FiMail /></a>
     </nav>
   )
 }

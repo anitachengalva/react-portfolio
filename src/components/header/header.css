@@ -26,6 +26,7 @@
     position: absolute;
     left: 0;
     bottom: 50px;
+    font-size: 18px;
 }
 
 .header-socials::after {
@@ -52,9 +53,10 @@
 /* down arrow */
 .scroll-down {
     position: absolute;
-    right: 0;
+    right: -5px;
     bottom: 50px;
     font-weight: 300;
+    font-size: 20px;
 }
 
 /* media queries */

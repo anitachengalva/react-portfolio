@@ -1,13 +1,19 @@
 import React from "react";
 import "./about.css";
 
-import DOG from "../../assets/img/placeholder.png";
+import DOG from "../../assets/img/nova-hike.JPG";
 
 const About = () => {
   return (
     <section id="about">
       <h5>Introducing Anita</h5>
       <h2>About Me</h2>
+
+      <div className="container about-container">
+      <div className="about-image">
+        <img src={DOG} alt="Nova and Anita on a hike!" />
+      </div>
+      <div className="about-content">
       <p>
         I am currently a student at the University of Washington studying web
         development, with the end goal of being a full stack developer. I am
@@ -21,9 +27,7 @@ const About = () => {
         much enjoy hiking in the PNW, weather permitting. My favorite activity,
         however, is hanging out with my pup Nova!
       </p>
-
-      <div className="about-me-pic">
-        <img src={DOG} alt="Nova and Anita on a hike!" />
+      </div>
       </div>
     </section>
   );

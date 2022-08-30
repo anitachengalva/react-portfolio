@@ -59,7 +59,8 @@ h1 {
 
 section {
     margin-top: 130px;
-    height: max-content;
+    max-height: max-content;
+    min-height: 100vh;
 }
 
 section > h2, section > h5 {

@@ -2,7 +2,7 @@ import React from "react";
 import "./about.css";
 
 import DOG from "../../assets/img/nova-hike.JPG";
-import Tabs from "./Tabs";
+import Tabs from "./tabs/Tabs";
 
 const About = () => {
   return (

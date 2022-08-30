@@ -1,21 +1,25 @@
 import React from "react";
 import "./nav.css";
-// import { useState } from "react";
+
+import {MdOutlineStarBorderPurple500} from 'react-icons/md';
+import {BsFillPersonFill} from "react-icons/bs";
+import {BsTools} from "react-icons/bs";
+import {FaLaptopCode} from "react-icons/fa";
+import {FiMail} from "react-icons/fi";
 
 const Nav = () => {
   return (
-    <>
-    <section id="nav">Nav</section>
-    </>
+    <nav>
+      <a href="#"><MdOutlineStarBorderPurple500 /></a>
+      <a href="#about"></a>
+      <a href="#skills"></a>
+      <a href="#projects"></a>
+      <a href="#contact"></a>
+    </nav>
   )
 }
 
 
-// import {MdOutlineStarBorderPurple500} from 'react-icons/md';
-// import {BsFillPersonFill} from "react-icons/bs";
-// import {BsTools} from "react-icons/bs";
-// import {FaLaptopCode} from "react-icons/fa";
-// import {FiMail} from "react-icons/fi";
 
 // const Nav = () => {
 //   const [activeNav, setActiveNav] = useState("#");

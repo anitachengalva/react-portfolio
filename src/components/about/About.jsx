@@ -2,7 +2,6 @@ import React from "react";
 import "./about.css";
 
 import DOG from "../../assets/img/nova-hike.JPG";
-import Tabs from "./tabs/Tabs";
 
 const About = () => {
   return (
@@ -14,8 +13,6 @@ const About = () => {
         <div className="about-image">
           <img src={DOG} alt="Nova and Anita on a hike!" />
         </div>
-        
-        <Tabs />
 
       </div>
     </section>

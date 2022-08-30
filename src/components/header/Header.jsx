@@ -10,10 +10,10 @@ import {HiArrowNarrowDown} from "react-icons/hi";
 const Header = () => {
   return (
     <header id="header">
-      <section className="container, header-container">
+      <div className="container, header-container">
         <h5>Hello, I'm</h5>
         <h1>Anita Chengalva</h1>
-        <h5 className="text-light">Full-Stack Web Developer</h5>
+        <h5 className="text-light">Full Stack Web Developer</h5>
         
         <CTA />
         <Socials />
@@ -23,7 +23,7 @@ const Header = () => {
         </div>
 
         <a href="#contact" className="scroll-down"><HiArrowNarrowDown /></a>
-      </section>
+      </div>
     </header>
   );
 };

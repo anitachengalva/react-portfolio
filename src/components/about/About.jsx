@@ -6,7 +6,8 @@ import DOG from "../../assets/img/placeholder.png";
 const About = () => {
   return (
     <section id="about">
-      <h2>Nice to meet you, I'm Anita!</h2>
+      <h5>Introducing Anita</h5>
+      <h2>About Me</h2>
       <p>
         I am currently a student at the University of Washington studying web
         development, with the end goal of being a full stack developer. I am

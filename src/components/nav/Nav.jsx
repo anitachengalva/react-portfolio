@@ -1,6 +1,15 @@
-// import React from "react";
-// import "./nav.css";
+import React from "react";
+import "./nav.css";
 // import { useState } from "react";
+
+const Nav = () => {
+  return (
+    <>
+    <section id="nav">Nav</section>
+    </>
+  )
+}
+
 
 // import {MdOutlineStarBorderPurple500} from 'react-icons/md';
 // import {BsFillPersonFill} from "react-icons/bs";
@@ -21,4 +30,4 @@
 //   );
 // };
 
-// export default Nav;
+export default Nav;

@@ -1,5 +1,9 @@
 import React from "react";
 
+import Bio from "./Bio";
+import Skills from "./Skills";
+import Experience from "./Experience";
+
 const Tabs = () => {
     return (
         <div className="about-tabs">
@@ -16,18 +20,10 @@ const Tabs = () => {
           </ul>
 
           <div className="tab-content">
-            <div id="about2" className="tab-container tab-pane active">
-              <h3>About Me</h3>
-              <h5>Hello hello hello!</h5>
-            </div>
-            <div id="skills" className="tab-container tab-pane fade">
-              <h3>Skills</h3>
-              <h5>Hello hello hello</h5>
-            </div>
-            <div id="experience" className="tab-container tab-pane fade">
-              <h3>Experience</h3>
-              <h5>Hello hello hello</h5>
-            </div>
+            <Bio />
+            <Skills />
+            <Experience />
+            
           </div>
         </div>
     );

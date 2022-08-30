@@ -1,8 +1,6 @@
 #header {
     height: 100vh;
     padding-top: 75px;
-    /* overflow: hidden; */
-    /* this hidden is causing issues */
 }
 
 .header-container {
@@ -42,7 +40,7 @@
     height: auto;
     width: auto;
     max-width: 250px;
-    padding-top: 6%;
+    padding-top: 50px;
     margin: auto;
     bottom: 50px;
 }

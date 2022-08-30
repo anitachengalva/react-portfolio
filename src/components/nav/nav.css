@@ -1,6 +1,6 @@
 nav {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
 
     background: rgba(0, 0, 0, 0.2);
@@ -9,17 +9,22 @@ nav {
     position: fixed;
 
     top: 40px;
-    right: 30px;
+    right: 10%;
     border-radius: 3rem;
-    backdrop-filter: blur(15px);
+    backdrop-filter: blur(10px);
+    padding: 3px;
 }
 
 nav a {
     background: transparent;
     padding: 10px;
-    margin: 5px;
+    margin: 4px;
     border-radius: 50%;
     display: flex;
     color: var(--color-light);
-    font-size: 20px;
+    font-size: 15px;
+}
+
+nav a:hover {
+    background: rgba(0, 0, 0, 0.15);
 }

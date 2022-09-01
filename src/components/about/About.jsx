@@ -13,7 +13,6 @@ const About = () => {
         <div className="about-image">
           <img src={DOG} alt="Nova and Anita on a hike!" />
         </div>
-
       </div>
     </section>
   );

@@ -17,9 +17,7 @@ const About = () => {
           <h5>
             University of Washington graduate and Full Stack web developer with
             a passion for integrating design and tech. Founder of 
-            <a href="www.adoptmeseaattle.org" target="_blank">
-              Adopt Me Seattle
-            </a>
+            <a href="www.adoptmeseaattle.org" target="_blank"> Adopt Me Seattle</a>
             . As a new developer, I bring a fresh set of eyes and a
             multidisciplinary approach to the table. I am eager to create an
             interface and experience that is both appealing and intuitive to the

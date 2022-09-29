@@ -17,9 +17,6 @@
     display: grid;
     place-items: center;
     padding-top: 20px;
-    margin-top: 50px;
-
-    border: brown 3px;
 }
 
 .about-image img {
@@ -31,4 +28,8 @@
 
 .about-image img:hover {
     transform: rotate(0);
+}
+
+a:hover {
+    color: gray;
 }

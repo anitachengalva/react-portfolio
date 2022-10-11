@@ -40,7 +40,7 @@
 .headshot {
     height: auto;
     width: auto;
-    max-width: 250px;
+    max-width: 400px;
     padding-top: 50px;
     margin: auto;
     bottom: 50px;
@@ -64,6 +64,14 @@
     header {
         height: 68vh;
     }
+    .headshot {
+        height: auto;
+        width: auto;
+        max-width: 300px;
+        padding-top: 60px;
+        margin: auto;
+        bottom: 50px;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -73,5 +81,13 @@
 
     .header-socials, .scroll-down {
         display: none;
+    }
+    .headshot {
+        height: auto;
+        width: auto;
+        max-width: 250px;
+        padding-top: 50px;
+        margin: auto;
+        bottom: 50px;
     }
 }

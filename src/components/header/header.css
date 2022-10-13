@@ -68,9 +68,15 @@
         height: auto;
         width: auto;
         max-width: 300px;
-        padding-top: 60px;
+        padding-top: 50px;
         margin: auto;
         bottom: 50px;
+    }
+}
+
+@media screen and (max-height: 700px){
+    .headshot {
+        max-width: 250px;
     }
 }
 

@@ -4,7 +4,12 @@ import "./projects.css";
 const Projects = () => {
   return (
     <section id="projects">
-      <section>Projects</section>
+      <h5>What have I been working on?</h5>
+      <h2>Projects</h2>
+
+      <div className="container projects-container">
+        
+      </div>
     </section>
   );
 };

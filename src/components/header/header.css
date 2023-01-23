@@ -9,6 +9,11 @@
     position: relative;
 }
 
+.header-text-container {
+    justify-content: center;
+    padding-top: 25vh;
+}
+
 /* cta buttons */
 .cta {
     margin-top: 30px;

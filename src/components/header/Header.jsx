@@ -2,7 +2,7 @@ import React from "react";
 import "./header.css";
 
 import CTA from "./CTA";
-import ME from "../../assets/img/headshot.jpg";
+// import ME from "../../assets/img/headshot.jpg";
 import Socials from "./Socials";
 
 import {HiArrowNarrowDown} from "react-icons/hi";

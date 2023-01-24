@@ -13,9 +13,9 @@ const Header = () => {
     <header id="header">
       <div className="container header-container">
         <div className="header-text-container">
-          <h5>Hello, I'm</h5>
+          <h4>Hello, I'm</h4>
           <h1>Anita Chengalva</h1>
-          <h5 className="text-light">
+          <h4 className="text-light">
             <Typical
               loop={Infinity}
               steps={[
@@ -27,7 +27,7 @@ const Header = () => {
                 1000
               ]}
             />
-          </h5>
+          </h4>
         </div>
         
         <CTA />

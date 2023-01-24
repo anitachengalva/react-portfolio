@@ -12,8 +12,8 @@
 
 /* css variables */
 :root {
-    --color-bg: #D0B49F;
-    --color-bg-varient: #E7D1C9;
+    --color-bg: #50463f;
+    --color-bg-varient: #776a65;
     --color-primary: #F1E7DD;
     --color-primary-varient: #F3E7E4;
     --color-white: #FFFFFF;
@@ -54,7 +54,7 @@ h1, h2, h3, h4, h5 {
 }
 
 h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
 }
 
 section {
@@ -129,6 +129,10 @@ img {
 
 /* media query - sm */
 @media screen and (max-width: 600px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+    
     .container {
         width: var(--container-width-sm);
     }

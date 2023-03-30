@@ -94,15 +94,9 @@
         display: none;
     }
     .header-socials {
-        display: flex;
         flex-direction: row;
-        justify-items: center;
-        gap: 0.8rem;
-        position: absolute;
         bottom: 10vh;
-        width: 40vw;
         left: 35vw;
-        font-size: 18px;
     }
     .header-socials::after {
         display: none;

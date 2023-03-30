@@ -11,12 +11,12 @@
 
 .header-text-container {
     justify-content: center;
-    padding-top: 25vh;
+    padding-top: 20vh;
 }
 
 /* cta buttons */
 .cta {
-    margin-top: 30px;
+    margin-top: 50px;
     display: flex;
     gap: 1rem;
     justify-content: center;

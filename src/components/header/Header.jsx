@@ -3,7 +3,6 @@ import "./header.css";
 import Typical from "react-typical";
 
 import CTA from "./CTA";
-// import ME from "../../assets/img/headshot.jpg";
 import Socials from "./Socials";
 
 import {HiArrowNarrowDown} from "react-icons/hi";
@@ -50,10 +49,6 @@ const Header = () => {
         
         <CTA />
         <Socials />
-
-        {/* <div className="headshot">
-          <img src={ME} alt="Anita's Headshot" />
-        </div> */}
 
         <a href="#contact" className="scroll-down"><HiArrowNarrowDown /></a>
       </div>

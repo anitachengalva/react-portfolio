@@ -37,3 +37,9 @@ h5 {
 a:hover {
     color: gray;
 }
+
+@media screen and (max-width: 600px) {
+    .about-image {
+        display: none;
+    }
+}

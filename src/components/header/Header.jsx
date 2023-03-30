@@ -20,7 +20,7 @@ const Header = () => {
               loop={Infinity}
               steps={[
                 "Full Stack Web Developer",
-                1500,
+                1000,
                 "Proficent in Node.js",
                 1000,
                 "Proficent in React.js",

@@ -33,7 +33,7 @@ const Header = () => {
                 1000,
                 "Proficent in SQL and MongoDB",
                 1000,
-                "Passionate for Creating Elegant UX",
+                "Passionate for Designing Elegent UI",
                 1000,
                 "Avid Hiker",
                 1000,

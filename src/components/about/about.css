@@ -1,3 +1,7 @@
+h5 {
+    padding-top: 10vh;
+}
+
 .about-container {
     display: grid;
     grid-template-columns: 25% 50%;

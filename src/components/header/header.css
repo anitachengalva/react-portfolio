@@ -90,8 +90,23 @@
         height: 100vh;
     }
 
-    .header-socials, .scroll-down {
+    .scroll-down {
         display: none;
+    }
+    .header-socials {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 0.8rem;
+        position: fixed;
+        bottom: 50px;
+        font-size: 18px;
+    }
+    .header-socials::after {
+        content: "";
+        width: 1px;
+        height: 80px;
+        background: var(--color-primary);
     }
     .headshot {
         height: auto;

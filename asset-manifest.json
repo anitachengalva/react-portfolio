@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.3ee29998.css",
-    "main.js": "/react-portfolio/static/js/main.8cdb290d.js",
+    "main.css": "/react-portfolio/static/css/main.3317ca4b.css",
+    "main.js": "/react-portfolio/static/js/main.117c94d7.js",
     "static/media/nova-hike.JPG": "/react-portfolio/static/media/nova-hike.a11cdab7073192901a55.JPG",
-    "static/media/headshot.jpg": "/react-portfolio/static/media/headshot.afb7224496ea38f6338e.jpg",
-    "static/media/resume-portfolio.pdf": "/react-portfolio/static/media/resume-portfolio.8e5ffeb9708945fc0b6f.pdf",
+    "static/media/AnitaChengalva_Resume.pdf": "/react-portfolio/static/media/AnitaChengalva_Resume.b8cddb9e946ef423877b.pdf",
     "index.html": "/react-portfolio/index.html",
-    "main.3ee29998.css.map": "/react-portfolio/static/css/main.3ee29998.css.map",
-    "main.8cdb290d.js.map": "/react-portfolio/static/js/main.8cdb290d.js.map"
+    "main.3317ca4b.css.map": "/react-portfolio/static/css/main.3317ca4b.css.map",
+    "main.117c94d7.js.map": "/react-portfolio/static/js/main.117c94d7.js.map"
   },
   "entrypoints": [
-    "static/css/main.3ee29998.css",
-    "static/js/main.8cdb290d.js"
+    "static/css/main.3317ca4b.css",
+    "static/js/main.117c94d7.js"
   ]
 }
